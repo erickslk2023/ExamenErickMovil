@@ -82,11 +82,16 @@ export default function Acelerometro() {
 
             <View style={[
                 style.balon,
+                
                 {
                     left: pocisionBalon.x,
                     top: pocisionBalon.y,
-                    right: pocisionBalon.z
+                    right: pocisionBalon.z, 
+                    backgroundColor: pocisionBalon.x >150 ? 'red' : 'blue',
+                              
                 }
+
+                
             ]
 
             }>
