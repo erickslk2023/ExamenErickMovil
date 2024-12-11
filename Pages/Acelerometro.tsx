@@ -120,7 +120,14 @@ const style = StyleSheet.create({
         bottom: 50,
         fontSize: 16,
         fontWeight: 'bold'
-    }
+    },
+    balonLeft: {
+        position: 'absolute',
+        width: 50,
+        height: 50,
+        backgroundColor: 'black',
+        borderRadius: 25
+    },
 
 
 })

@@ -39,9 +39,10 @@ export default function AsiganuraComponente() {
       renderItem={({item})=>(
 
         <View style={styles.card}>
-            <Text>{ `${item.postitionX}`}</Text>
-            <Text>{item.positionY}</Text>
-            <Text>{item.fecha}</Text>
+            <Text>Id:{ item.IdLog}</Text>
+            <Text>Position X:{ item.postitionX}</Text>
+            <Text>Position Y:{item.positionY}</Text>
+            <Text>fecha:{item.fecha}</Text>
             
         </View>
        
